@@ -740,8 +740,7 @@ function calcEnemyBaseAttack(type, zone, cell, name, query = false) {
 
 	if (!query && zone >= 200 && cell !== 100 && type === 'world' && game.global.universe === 2 && game.global[mapGrid][cell].u2Mutation) {
 		if (cell !== 100 && type === 'world' && game.global[mapGrid][cell].u2Mutation) {
-			attack = u2Mutations.getAttack(game.global[mapGrid][cell - 1]);
-			return attack;
+			return u2Mutations.getAttack(game.global[mapGrid][cell - 1]);
 		}
 	}
 
