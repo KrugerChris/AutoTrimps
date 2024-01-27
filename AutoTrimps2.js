@@ -1,8 +1,8 @@
 const atSettings = {
 	initialise: {
 		version: '',
-		basepath: 'https://SadAugust.github.io/AutoTrimps/',
-		basepathOriginal: 'https://SadAugust.github.io/AutoTrimps/',
+		basepath: 'https://krugerchris.github.io/AutoTrimps/',
+		basepathOriginal: 'https://krugerchris.github.io/AutoTrimps/',
 		loaded: false
 	},
 	modules: {
